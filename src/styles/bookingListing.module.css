@@ -1,0 +1,66 @@
+.listTable {
+    width: 100%;
+    border: solid 1px dimgray;
+}
+
+.listTable thead tr {
+
+    display: grid;
+    font-family: 'Roboto';
+    height: 2rem;
+    align-items: center;
+    background-color: rgb(252, 251, 251);
+    grid-template-columns: repeat(6, 1fr);
+}
+.lastRow{
+    border-bottom: 0px !important;
+    margin-bottom: 0 !important;
+}
+.listTable tr {
+    font-family: 'Roboto';
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(6, 1fr);
+
+}
+
+.tableRow {
+    align-items: center;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    border-bottom: solid 1px dimgray;
+    
+}
+.rowV1{
+    background-color: darkgray;
+}
+.rowV2{
+    background-color: antiquewhite;
+}
+.flex_col{
+    display: flex;
+    flex-direction: column;
+}
+.flex_col > button{
+    box-sizing: border-box;
+}
+.btn_update{
+    margin-bottom: 0.5rem;
+    background-color: aqua;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+.btn_update:hover{
+    background-color: rgb(2, 250, 167);
+}
+.btn_delete{
+    margin-bottom: 0.5rem;
+    background-color: rgb(243, 123, 93);
+    border: 0.5px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+.btn_delete:hover{
+    background-color: rgb(252, 9, 9);
+}

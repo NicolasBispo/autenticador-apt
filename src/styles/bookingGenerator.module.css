@@ -1,0 +1,22 @@
+.formTitle{
+    font-size: 2rem;
+    padding: 1rem 0 1rem 0;
+    font-family: Roboto;
+}
+.formGenerator{
+    display: grid;
+    max-width: 60%;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+.form_flex_group{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+.form_flex_group > input{
+    height: 2rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+}

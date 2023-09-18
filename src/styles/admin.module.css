@@ -1,0 +1,18 @@
+.adminBody{
+    height: 100vh;
+    background-color: #191919;
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+}
+
+.adminMenu {
+    background-color: #FF785A;
+    padding: 1rem;
+    text-align: center;
+}
+.main_content {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #ffaa5a;
+    border-radius: 5px;
+}
