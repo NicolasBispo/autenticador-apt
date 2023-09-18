@@ -20,3 +20,14 @@
     border: 1px solid black;
     text-align: center;
 }
+.form_grid_3{
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.h1Hospede{
+    grid-column: span 3;
+}
+.voidDiv{
+    width: 1fr;
+}
